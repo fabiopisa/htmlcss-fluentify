@@ -18,8 +18,8 @@ body{
   width: 50%;
 }
 
-/* intestazione pagina header */
 
+/* intestazione pagina header */
 /* bottoni e logo */
 header{
   height: 550px;
@@ -111,21 +111,42 @@ a:active{
 }
 
 .large-green{
-  padding-top: 18px;
+  padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 110%;
 }
 /* / bottoni e logo */
 
 /* testo h1 dell'header */
+.jumbotrom{
+  position: relatives;
+}
+
 .jumbotrom-text h1{
   color:#FFFFFF;
   font-size: 381%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .jumbotrom-text{
-  margin-top: 100px;
+ width: 50%;
+ position: absolute;
+ top: 20%;
 }
 /* / testo h1 dell'header */
-
 /* / intestazione pagina header */
+
+
+/* corpo del sito */
+/* prima sezione */
+.box-grey{
+  background-color:#D3D3D3 ;
+  height: 150px;
+  text-align: center;
+}
+
+.box-grey h3{
+  padding-top: 45px;
+  padding-bottom: 20px;
+  font-size: 150%;
+}
