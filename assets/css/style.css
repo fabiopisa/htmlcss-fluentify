@@ -14,17 +14,27 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+.w-50{
+  width: 50%;
+}
+
 /* intestazione pagina header */
 
+/* bottoni e logo */
 header{
   height: 550px;
   background-color:#0C325A ;
+  background-image: url(../img/background-header.png);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: 110% 110%;
 }
 
 .container{
   width: 80%;
   margin: auto;
   height: 100%;
+  min-width: 1400px;
 }
 
 .header-nav{
@@ -53,14 +63,14 @@ header{
   display: inline;
   list-style: none;
   font-style: none;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 a{
  color: #FFFFFF;
  text-decoration: none;
  line-height: 80px;
- font-size: 90%;
+ font-size: 80%;
  text-transform: uppercase;
 }
 
@@ -80,7 +90,42 @@ a{
   border: 1px solid #808080;
 }
 
-.btn.btn-green{
+.btn-green{
  background-color: #7CBB04;
 }
 
+a:hover{
+  color:#EB5761 ;
+}
+
+a:active{
+  color: #be000a;
+}
+
+.btn.btn-green:hover{
+  color:#0C325A;
+}
+
+.btn.btn-green:active{
+  color: #808080;;
+}
+
+.large-green{
+  padding-top: 18px;
+  padding-bottom: 20px;
+}
+/* / bottoni e logo */
+
+/* testo h1 dell'header */
+.jumbotrom-text h1{
+  color:#FFFFFF;
+  font-size: 381%;
+  margin-bottom: 40px;
+}
+
+.jumbotrom-text{
+  margin-top: 100px;
+}
+/* / testo h1 dell'header */
+
+/* / intestazione pagina header */
