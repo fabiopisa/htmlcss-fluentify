@@ -66,7 +66,7 @@ header{
   margin-left: 20px;
 }
 
-a{
+li a{
  color: #FFFFFF;
  text-decoration: none;
  line-height: 80px;
@@ -94,11 +94,11 @@ a{
  background-color: #7CBB04;
 }
 
-a:hover{
+li a:hover{
   color:#EB5761 ;
 }
 
-a:active{
+li a:active{
   color: #be000a;
 }
 
@@ -138,6 +138,12 @@ a:active{
 
 
 /* corpo del sito */
+
+.columns-foto, .graphs{
+  width: 80%;
+  margin: auto;
+}
+
 /* prima sezione */
 .box-grey{
   background-color:#D3D3D3 ;
@@ -159,10 +165,6 @@ a:active{
 /* / prima sezione */
 
 /* seconda sezione */
-.columns-foto{
-  width: 80%;
-  margin: auto;
-}
 
 .columns{
 width: 30%;
@@ -197,7 +199,7 @@ width: 30%;
   margin-right: 5%;
 }
 
-.roule-special{
+.rule-special{
   margin-top: 33px;
 }
 
@@ -209,3 +211,54 @@ width: 30%;
   width: 35%;
 }
 /* / seconda sezione */
+
+.rule-main{
+  width: 98%;
+  margin-left:1%;
+  margin-bottom:50px;
+  margin-top:50px;
+}
+
+/* terza sezione */
+.graphs{
+  position: relative;
+}
+
+.img-mountain{
+  width:50%;
+}
+
+.graphs-text{
+  width: 50%;
+}
+
+.img-mountain img{
+  width: 80%;
+}
+
+.graphs-text h3{
+  font-size: 280%;
+}
+
+.graphs-text p{
+  font-size: 160%;
+  color: #848484;
+}
+
+.graphs-text h3,
+.graphs-text p{
+  padding-bottom: 20px;
+}
+
+.graphs-text a{
+  color: #739CC8;
+}
+
+.graphs-text a:hover{
+  color:#808080 ;
+}
+
+.graphs-text a:active{
+  color:#000000 ;
+}
+/* / terza sezione */
