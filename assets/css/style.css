@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* intestazione pagina header */
+
+header{
+  height: 550px;
+  background-color:#0C325A ;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+
+.header-nav{
+  height: 80px;
+  overflow: hidden;
+}
+
+.flo{
+  float: left;
+}
+
+.header-logo{
+  width: 15%;
+}
+
+.nav-central{
+  width: 45%;
+}
+
+.nav-right{
+  width: 40%;
+  text-align: right;
+}
+
+ .header-nav ul li{
+  display: inline;
+  list-style: none;
+  font-style: none;
+  margin-left: 30px;
+}
+
+a{
+ color: #FFFFFF;
+ text-decoration: none;
+ line-height: 80px;
+ font-size: 90%;
+ text-transform: uppercase;
+}
+
+.header-logo img{
+  margin-top: 14px;
+}
+
+.btn{
+ 
+  padding: 7px 14px;
+  border-radius: 5px;
+}
+
+.btn.btn-blue{
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid #808080;
+}
+
+.btn.btn-green{
+ background-color: #7CBB04;
+}
+
