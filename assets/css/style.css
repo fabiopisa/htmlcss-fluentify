@@ -138,7 +138,6 @@ li a:active{
 }
 
 .jumbotrom-text{
- width: 50%;
  position: absolute;
  top: 20%;
 }
@@ -197,7 +196,7 @@ width: 30%;
 
 .columns hr{
   width: 20%;
-  margin-left: 40%;
+  margin:auto;
   margin-bottom:30px;
 }
 
@@ -231,14 +230,6 @@ width: 30%;
 .graphs{
   position: relative;
   margin-bottom: 40px;
-}
-
-.img-mountain{
-  width:50%;
-}
-
-.graphs-text{
-  width: 50%;
 }
 
 .img-mountain img{
@@ -282,7 +273,6 @@ footer{
 
 .structure, 
 .mix-footer{
-  width: 50%;
   float: left;
 }
 
