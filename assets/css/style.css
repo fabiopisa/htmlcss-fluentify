@@ -31,8 +31,6 @@ header{
 }
 
 .container{
-  width: 80%;
-  margin: auto;
   height: 100%;
   min-width: 1400px;
 }
@@ -66,12 +64,18 @@ header{
   margin-left: 20px;
 }
 
+/* bottoni */
 li a,
-.jumbotrom-text a{
+.mix-footer a{
+  font-size: 80%;
+}
+
+li a,
+.jumbotrom-text a,
+.mix-footer a{
  color: #FFFFFF;
  text-decoration: none;
  line-height: 80px;
- font-size: 80%;
  text-transform: uppercase;
 }
 
@@ -92,6 +96,10 @@ li a,
 
 .btn-green{
  background-color: #7CBB04;
+}
+
+.jumbotrom-text a{
+  font-size: 110%;
 }
 
 li a:hover{
@@ -115,6 +123,7 @@ li a:active{
   padding-bottom: 20px;
   font-size: 110%;
 }
+/* / bottoni */
 /* / bottoni e logo */
 
 /* testo h1 dell'header */
@@ -139,7 +148,10 @@ li a:active{
 
 /* corpo del sito */
 
-.columns-foto, .graphs{
+.columns-foto, 
+.graphs,
+.footer-contain,
+.container{
   width: 80%;
   margin: auto;
 }
@@ -179,8 +191,8 @@ width: 30%;
 .columns h5{
   color: #86C016;
   font-size: 170%;
-  padding-bottom: 30px;
   padding-top: 15px;
+  height: 120px;
 }
 
 .columns hr{
@@ -197,10 +209,6 @@ width: 30%;
 .columns.clm-central{
   margin-left: 5%;
   margin-right: 5%;
-}
-
-.rule-special{
-  margin-top: 33px;
 }
 
 .clm-central .columns-img img{
@@ -222,6 +230,7 @@ width: 30%;
 /* terza sezione */
 .graphs{
   position: relative;
+  margin-bottom: 40px;
 }
 
 .img-mountain{
@@ -262,3 +271,57 @@ width: 30%;
   color:#000000 ;
 }
 /* / terza sezione */
+/* / corpo del sito */
+
+/* fine sito footer */
+
+footer{
+  background-color:#D3D3D3 ;
+  height: 150px;
+  position: relative;
+}
+
+.structure, 
+.mix-footer{
+  width: 50%;
+  float: left;
+}
+
+.select{
+  display: inline-block;
+  width: 250px;
+  text-align: left;
+}
+
+.structure h3{
+  font-size: 200%;
+}
+
+.structure,
+.mix-footer>span,
+.mix-footer>a{ 
+  line-height: 150px;
+}
+
+.mix-footer{
+  text-align: right;
+}
+
+.mix-footer a,
+.select{
+  margin-left: 60px;
+}
+
+.select .icon{
+  float: right;
+  font-size: 30px;
+}
+
+.mix-footer span{
+  color: #818181;
+}
+
+.select{
+  border-bottom: 1px solid #818181;
+  line-height: 20px;
+}
