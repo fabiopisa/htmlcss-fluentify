@@ -327,3 +327,16 @@ footer{
   border-radius: 5px 5px 0px 0px;
   padding: 15px 15px;
 }
+
+.ticket a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.ticket a:hover{
+  color:#0C325A;
+}
+
+.ticket a:active{
+  color: #808080;;
+}
