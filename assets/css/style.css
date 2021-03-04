@@ -274,7 +274,6 @@ width: 30%;
 /* / corpo del sito */
 
 /* fine sito footer */
-
 footer{
   background-color:#D3D3D3 ;
   height: 150px;
@@ -324,4 +323,17 @@ footer{
 .select{
   border-bottom: 1px solid #818181;
   line-height: 20px;
+}
+/* / fine sito footer */
+
+.ticket{
+  text-transform: uppercase;
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  right: 13%;
+  color: #FFFFFF;
+  background-color:#7CBB04 ;
+  border-radius: 5px 5px 0px 0px;
+  padding: 15px 15px;
 }
