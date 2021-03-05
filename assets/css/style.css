@@ -187,22 +187,29 @@ float: left;
 width: 30%;
 }
 
-.columns h5{
+.columns .info-data{
   color: #86C016;
   font-size: 170%;
   padding-top: 15px;
-  height: 120px;
+  min-height: 120px;
+  position: relative;
 }
 
-.columns hr{
+.info-data::after{
+  position: absolute;
+  content: "";
+  display: block;
+  bottom: 0;
+  left: 40%;
   width: 20%;
-  margin:auto;
-  margin-bottom:30px;
+  height: 1px;
+  border-bottom: 1px solid #808080;
 }
 
 .columns p{
   color:#848484 ;
   font-size: 120%;
+  margin-top: 30px;
 }
 
 .columns.clm-central{
@@ -217,6 +224,7 @@ width: 30%;
 .clm-right .columns-img img{
   width: 35%;
 }
+
 /* / seconda sezione */
 
 .rule-main{
@@ -322,10 +330,9 @@ footer{
   z-index: 999;
   bottom: 0;
   right: 13%;
-  color: #FFFFFF;
   background-color:#7CBB04 ;
   border-radius: 5px 5px 0px 0px;
-  padding: 15px 15px;
+  padding: 12px 15px;
 }
 
 .ticket a{
